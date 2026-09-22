@@ -1,38 +1,34 @@
 # Hi, I'm Ahmed Nasser 👋
 ### Senior Flutter Engineer | Cross-Platform Systems & Clean Architecture
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/ahmednasser7797/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:a.nasser9600@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <img src="https://img.shields.io/badge/Alexandria%2C%20Egypt-grey?style=for-the-badge&logo=google-maps&logoColor=red" alt="Location" />
-</p>
+- 💼 **LinkedIn:** [linkedin.com/in/ahmednasser7797](https://www.linkedin.com/in/ahmednasser7797/)
+- 📧 **Email:** [a.nasser9600@gmail.com](mailto:a.nasser9600@gmail.com)
+- 📞 **Phone:** [+20 127 581 9235](tel:+201275819235)
+- 💬 **WhatsApp:** [Chat on WhatsApp](https://wa.me/201275819235)
+- 📍 **Location:** Alexandria, Egypt
 
 ---
 
 ## 🚀 Technical Arsenal
 
-- **Core & Languages:** Flutter, Dart, Kotlin, Jetpack Compose[cite: 1]
-- **Architecture:** Clean Architecture, Feature-First, Dependency Injection (SOLID)[cite: 1]
-- **State Management:** BLoC / Cubit, Provider[cite: 1]
-- **Real-Time & Sync:** Pusher WebSockets, Firebase (Auth, Cloud Messaging, Firestore)[cite: 1]
-- **DevOps & Releases:** Shorebird OTA, Codemagic, App Store Connect, Google Play Console[cite: 1]
-- **Local Persistence:** Hive, SQLite[cite: 1]
+- **Core & Languages:** Flutter, Dart, Kotlin, Jetpack Compose
+- **Architecture:** Clean Architecture, Feature-First, Dependency Injection (SOLID)
+- **State Management:** BLoC / Cubit, Provider
+- **Real-Time & Sync:** Pusher WebSockets, Firebase (Auth, Cloud Messaging, Firestore)
+- **DevOps & Releases:** Shorebird OTA, Codemagic, App Store Connect, Google Play Console
+- **Local Persistence:** Hive, SQLite
 
 ---
 
 ## 📱 Featured Engineering Case Studies
 
 ### 1. 🎧 Rafeek — Cross-Platform Audio Tour Guide
-> Location-aware walking companion with real-time landmark tracking and background media playback[cite: 1].
+> Location-aware walking companion with real-time landmark tracking and background media playback.
 
-- **Architecture:** Clean Architecture + BLoC[cite: 1].
-- **Core Challenge:** Streaming audio without interruption while fetching dynamic points of interest via OpenStreetMap in low-connectivity areas[cite: 1].
-- **Engineering Solution:** Built an offline caching layer that pre-fetches audio and guides while throttling GPS pings to preserve device battery life[cite: 1].
-- **Live Links:** [Official Website](https://rafeek.app/) • *Available on Google Play & App Store*[cite: 1]
+- **Architecture:** Clean Architecture + BLoC
+- **Core Challenge:** Streaming audio without interruption while fetching dynamic points of interest via OpenStreetMap in low-connectivity areas.
+- **Engineering Solution:** Built an offline caching layer that pre-fetches audio and guides while throttling GPS pings to preserve device battery life.
+- **Live Links:** [Official Website](https://rafeek.app/)
 
 ```mermaid
 graph LR
@@ -46,12 +42,12 @@ graph LR
 ---
 
 ### 2. 🏥 Bepharma — Enterprise Pharmaceutical CRM
-> Field-force automation tool for medical representatives with real-time synchronization[cite: 1].
+> Field-force automation tool for medical representatives with real-time synchronization.
 
-- **Architecture:** Clean Architecture + BLoC[cite: 1].
-- **Core Challenge:** Eliminating app store review delays during critical production bug fixes while handling high-throughput offline/online data syncing[cite: 1].
-- **Engineering Solution:** Re-architected core modules using BLoC for a **70% performance improvement** (boosting logged visits by **68%**) and integrated **Shorebird OTA** for instant over-the-air hotfixes[cite: 1].
-- **Live Links:** *Available on Google Play*[cite: 1]
+- **Architecture:** Clean Architecture + BLoC
+- **Core Challenge:** Eliminating app store review delays during critical production bug fixes while handling high-throughput offline/online data syncing.
+- **Engineering Solution:** Re-architected core modules using BLoC for a **70% performance improvement** (boosting logged visits by **68%**) and integrated **Shorebird OTA** for instant over-the-air hotfixes.
+- **Live Links:** [Google Play](https://play.google.com/store/apps/details?id=com.bepharma)
 
 ```mermaid
 graph LR
@@ -64,12 +60,19 @@ graph LR
 ---
 
 ### 3. 🎓 Asquera — Three-Tier Educational Ecosystem
-> Scaled multi-platform ecosystem serving over 3,000 students, teachers, and parents in Egypt[cite: 1].
+> Scaled multi-platform ecosystem serving over 3,000 students, teachers, and parents in Egypt.
 
-- **Architecture:** Clean Architecture + Provider + Hive Local Storage[cite: 1].
-- **Core Challenge:** Orchestrating 3 separate roles (students, teachers, and parents) with real-time grade updates and heavy media playback[cite: 1].
-- **Engineering Solution:** Split functionality into modular apps with dedicated data synchronization pipelines and a reels-based gamification engine[cite: 1].
-- **Live Links:** *Available on App Store & Google Play*[cite: 1]
+- **Architecture:** Clean Architecture + Provider + Hive Local Storage
+- **Core Challenge:** Orchestrating 3 separate roles (students, teachers, and parents) with real-time grade updates and heavy media playback.
+- **Engineering Solution:** Split functionality into modular apps with dedicated data synchronization pipelines and a reels-based gamification engine.
+
+**Ecosystem Apps & Live Links:**
+- **Asquera Core (Student & Admin):** Video lecture streaming, online exams, and offline QR-based attendance tracking.  
+  👉 [Google Play](https://play.google.com/store/apps/details?id=com.revoid.asquera)
+- **Asquera Practice (Gamification):** Short-video reel feed with automated daily leaderboard contests.  
+  👉 [Google Play](https://play.google.com/store/apps/details?id=com.rovoid.asquera.practice) • [App Store](https://apps.apple.com/us/app/asquera-practice/id6757539057)
+- **Asquera Parents (Monitoring Hub):** Real-time sync for academic scores, attendance logs, and payment tracking.  
+  👉 [Google Play](https://play.google.com/store/apps/details?id=com.rovoid.asquera.parent) • [App Store](https://apps.apple.com/us/app/asquera-parents/id6757544935)
 
 ```mermaid
 graph TD
@@ -86,11 +89,13 @@ graph TD
 ---
 
 ### 4. 💼 Finiex — Enterprise ERP Mobile Client
-> Digital conversion of an enterprise desktop/web ERP suite into a mobile application[cite: 1].
+> Digital conversion of an enterprise desktop/web ERP suite into a mobile application.
 
-- **Architecture:** Clean Architecture + Provider[cite: 1].
-- **Core Challenge:** Migrating an un-documented desktop system with complex accounting rules directly onto mobile devices[cite: 1].
-- **Engineering Solution:** Reverse-engineered network packets to build typed REST contracts and implemented an offline client-side calculation engine for instant tax, POS, and invoice generation[cite: 1].
+- **Architecture:** Clean Architecture + Provider
+- **Core Challenge:** Migrating an undocumented desktop system with complex accounting rules directly onto mobile devices.
+- **Engineering Solution:** Reverse-engineered network packets to build typed REST contracts and implemented an offline client-side calculation engine for instant tax, POS, and invoice generation.
+- **Core Modules:** Inventory, POS, Sales, Purchasing, and Multi-role Vendor Management.
+- **Preview:** [▶ Watch Demo Video](https://drive.google.com/file/d/18OOumEqpP-MS0BWumWaackTklDj7CbDV/view)
 
 ```mermaid
 graph LR
@@ -102,25 +107,46 @@ graph LR
 
 ---
 
-### 5. 💬 Consolto & Additional Shipped Apps
+### 5. 🩺 Consolto — Medical Social & Consultation Platform
+> Interactive community network connecting patients and doctors with appointment scheduling.
 
-- **Consolto:** Medical social networking platform built with **Rive vector animations**, Pusher real-time chat, and appointment booking[cite: 1].
-- **Baltoe:** Arabic healthcare community network with **10,000+ downloads**[cite: 1].
-- **Omlah Exchange:** Currency exchange application featuring one-tap rate conversion and payment gateway integration[cite: 1].
-- **FoundDr:** Dual-portal hospital management platform with distinct workflows for doctors and patients[cite: 1].
+- **Architecture:** Clean Architecture + Provider
+- **Core Challenge:** Delivering fluid, responsive user feedback during consultations and instant two-way doctor-patient messaging without UI latency.
+- **Engineering Solution:** Integrated **Rive vector animations** for smooth dynamic states and coupled **Pusher WebSockets** with background REST synchronization for low-latency live consultations.
+- **Live Links:** [App Store](https://apps.apple.com/us/app/consolto/id6475204243) • [Google Play](https://play.google.com/store/apps/details?id=com.app.consolto)
 
 ```mermaid
 graph LR
-    A[Consolto / Baltoe / FoundDr / Omlah] --> B(Flutter Cross-Platform Engine)
-    B --> C[Rive Vector Animations]
-    B --> D[Pusher Real-Time Chat Engine]
-    B --> E[Secure Payment Gateways]
+    A[Doctor / Patient UI] --> B(Rive Animation Controller)
+    A --> C(Provider State)
+    C --> D[Pusher WebSocket Engine]
+    C --> E[RESTful Healthcare APIs]
+    D --> F[Real-Time Direct Chat]
+```
+
+---
+
+### 6. 📦 Additional Shipped Apps
+
+- **Baltoe:** Arabic healthcare community network with **10,000+ downloads**.
+- **FoundDr:** Dual-portal hospital management platform with distinct workflows for doctors and patients.
+- **Omlah Exchange:** Currency exchange application featuring one-tap rate conversion and payment gateway integration.
+- **Mahlolah & Mega Academy:** Craftsmen marketplace and modular e-learning platform with integrated exams and Firebase chat.
+
+```mermaid
+graph LR
+    A[Healthcare & Utilities] --> B(Flutter Cross-Platform Core)
+    B --> C[Payment Gateway Integrations]
+    B --> D[Firebase Real-Time Chat]
+    B --> E[Modular Role Portals]
 ```
 
 ---
 
 ## 📬 Connect With Me
 
-- **LinkedIn:** [ahmednasser7797](https://www.linkedin.com/in/ahmednasser7797/)[cite: 1]
-- **Email:** [a.nasser9600@gmail.com](mailto:a.nasser9600@gmail.com)[cite: 1]
-- **Location:** Alexandria, Egypt[cite: 1]
+- **LinkedIn:** [linkedin.com/in/ahmednasser7797](https://www.linkedin.com/in/ahmednasser7797/)
+- **Email:** [a.nasser9600@gmail.com](mailto:a.nasser9600@gmail.com)
+- **Phone:** [+20 127 581 9235](tel:+201275819235)
+- **WhatsApp:** [Chat on WhatsApp](https://wa.me/201275819235)
+- **Location:** Alexandria, Egypt
