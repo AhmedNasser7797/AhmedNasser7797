@@ -34,4 +34,15 @@ graph LR
     C -->|Yes| D[Audio Engine Handler]
     C -->|No| E[Idle Tracker]
     D --> F[Local Disk Cache / Stream]
-2. 🏥 Bepharma — Enterprise Pharmaceutical CRMField-force automation tool for medical representatives with real-time synchronization.Impact: Refactored core legacy modules using Clean Architecture and BLoC, delivering a 70% increase in app performance and boosting field visit logging by 68%.Zero-Downtime Deployment: Integrated Shorebird OTA to deploy live hotfixes directly to field agents without waiting for app store reviews.Real-Time Layer: Integrated Pusher WebSockets for instant manager-rep synchronization.3. 🎓 Asquera — Three-Tier Educational EcosystemScaled cross-platform platform serving 3,000+ students, teachers, and parents in Egypt.Asquera Core (Student & Admin)Asquera Practice (Gamification)Asquera Parents (Monitoring)Secure video streaming & offline QR attendanceHigh-retention short-video reel feed & daily leaderboardsReal-time grade sync, billing, and attendance tracking(Clean Architecture, REST)(Reels Engine, Hive)(FCM, Background Sync)4. 💼 Finiex — Enterprise ERP Mobile ClientDigital conversion of a legacy desktop/web ERP suite into a mobile application.Reverse-Engineered Network Contracts: Mapped internal web requests to define clean, typed REST contracts.Client-Side Calculation Engine: Built an offline calculation system to handle real-time tax brackets, volume discounts, and instant point-of-sale (POS) invoice generation.Modules: Inventory, POS, Procurement, and Multi-role Access.📊 GitHub Analytics📬 Connect With MeLinkedIn: ahmednasser7797Email: a.nasser9600@gmail.com
+```
+2. 🏥 Bepharma — Enterprise Pharmaceutical CRMField-force automation tool for medical representatives with real-time synchronization.Impact: Refactored core legacy modules using Clean Architecture and BLoC, delivering a 70% increase in app performance and boosting field visit logging by 68%.Zero-Downtime Deployment: Integrated Shorebird OTA to deploy live hotfixes directly to field agents without waiting for app store reviews.Real-Time Layer: Integrated Pusher WebSockets for instant manager-rep synchronization.
+   
+3. 🎓 Asquera — Three-Tier Educational EcosystemScaled cross-platform platform serving 3,000+ students, teachers, and parents in Egypt.Asquera Core (Student & Admin)Asquera Practice (Gamification)Asquera Parents (Monitoring)Secure video streaming & offline QR attendanceHigh-retention short-video reel feed & daily leaderboardsReal-time grade sync, billing, and attendance tracking(Clean Architecture, REST)(Reels Engine, Hive)(FCM, Background Sync)
+  
+4. 💼 Finiex — Enterprise ERP Mobile ClientDigital conversion of a legacy desktop/web ERP suite into a mobile application.Reverse-Engineered Network Contracts: Mapped internal web requests to define clean, typed REST contracts.Client-Side Calculation Engine: Built an offline calculation system to handle real-time tax brackets, volume discounts, and instant point-of-sale (POS) invoice generation.Modules: Inventory, POS, Procurement, and Multi-role Access.
+  
+  
+📊 GitHub Analytics📬 
+Connect With Me
+LinkedIn: ahmednasser7797
+Email: a.nasser9600@gmail.com
