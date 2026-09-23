@@ -29,6 +29,8 @@
 - **Core Challenge:** Streaming audio without interruption while fetching dynamic points of interest via OpenStreetMap in low-connectivity areas.
 - **Engineering Solution:** Built an offline caching layer that pre-fetches audio and guides while throttling GPS pings to preserve device battery life.
 - **Live Links:** [Official Website](https://rafeek.app/)
+- [Google Play Link](https://play.google.com/store/apps/details?id=app.rafeek.tech)
+- [App Store Link](https://apps.apple.com/us/app/rafeek-audio-guide/id6757149536)
 
 ```mermaid
 graph LR
